@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Facade
+{
+    public class MySql : IDb
+    {
+        public string LoadData(string configurationString)
+        {
+            //doing some MySql-Query here, getting configuration
+            return ""; //return string, loaded from database
+        }
+    }
+}
